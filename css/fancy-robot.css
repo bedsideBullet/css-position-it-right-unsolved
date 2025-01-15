@@ -13,7 +13,7 @@
 }
 
 .robot-face-shape {
-	background-color: rgb(165, 188, 206);
+	background: linear-gradient(90deg, #808080, #c0c0c0);
 	border: 5px solid black;
 	width: 500px;
 	height: 550px;
@@ -83,6 +83,7 @@
 	position: absolute;
 	top: 140px;
 	left: 120px;
+	opacity: 50%;
 }
 
 .robot-eye-right {
@@ -93,11 +94,12 @@
 	position: absolute;
 	top: 140px;
 	right: 120px;
+	opacity: 25%;
 }
 
 .robot-nose {
-	width: 50px;
-	height: 70px;
+	width: 25%;
+	height: 5rem;
 	background-color: green;
 	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 	position: absolute;
